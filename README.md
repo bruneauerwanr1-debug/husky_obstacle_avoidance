@@ -8,9 +8,9 @@ Autonomous reactive obstacle avoidance, vision-based emergency stop, and compreh
 
 This repository provides three vision-based obstacle perception and reactive navigation architectures designed for real-time robotic safety:
 
-1. **CPU Dense Optical Flow (Farneback)** — Motion-field estimation, statistical ego-motion cancellation, 3-zone lateral balance, and predictive evasion.
-2. **Deep Optical Flow (RAFT)** — High-precision recurrent optical flow on GPU, directional blob coherence filtering, and dynamic trajectory extrapolation.
-3. **Predictive Object Detection (YOLOv26 + Ground Homography)** — Semantic obstacle classification, metric ground-plane projection ($Z=0$), Velocity Obstacle (VO) side selection, and Time-to-Collision (TTC) forecasting.
+1. **CPU Dense Optical Flow (Farneback)** : Motion-field estimation, statistical ego-motion cancellation, 3-zone lateral balance, and predictive evasion.
+2. **Deep Optical Flow (RAFT)** : High-precision recurrent optical flow on GPU, directional blob coherence filtering, and dynamic trajectory extrapolation.
+3. **Predictive Object Detection (YOLOv26 + Ground Homography)** : Semantic obstacle classification, metric ground-plane projection ($Z=0$), Velocity Obstacle (VO) side selection, and Time-to-Collision (TTC) forecasting.
 
 ```
                        ┌────────────────────────────┐
