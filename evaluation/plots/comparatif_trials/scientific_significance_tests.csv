@@ -1,0 +1,11 @@
+Metric_Key,Metric_Name,Category,Interpretation,Farneback_Mean,Farneback_Median,Farneback_Std,Farneback_N,YOLO_Mean,YOLO_Median,YOLO_Std,YOLO_N,Mann_Whitney_U,P_Value,P_Value_Scientific,Effect_Size_r,Significance
+d_min_m,Minimum Distance to Obstacle (m),Safety / Proximity,Higher is Safer,0.159,0.05,0.203,54,3.116,1.37,4.899,52,122.0,5.102716354876825e-16,5.103e-16,0.913,*** (p < 0.001)
+estop_count,Emergency Stop (E-STOP) Count,Safety / Failures,Lower is Safer,4.148,3.0,4.345,54,1.642,1.0,1.545,53,1996.0,0.00030460209290759195,3.046e-04,-0.395,*** (p < 0.001)
+delta_psi_cum_rad,Cumulative Heading Rotation Δψ (rad),Agitation / Stability,Lower is Smoother,1.971,0.553,3.766,22,2.861,0.959,5.506,45,381.5,0.13134220050255704,1.313e-01,0.229,Not Significant (NS)
+jerk_rms_rad_s2,Angular Jerk RMS (rad/s²),Motion Smoothness,Lower is Smoother,0.279,0.241,0.237,22,0.381,0.367,0.209,45,299.5,0.009221445642937597,9.221e-03,0.395,** (p < 0.01)
+fps_hz,Processing Rate / FPS (Hz),Real-time Execution,Higher is Faster,10.021,10.022,0.011,54,10.003,10.001,0.007,53,2622.0,1.107696154254696e-13,1.108e-13,-0.832,*** (p < 0.001)
+cpu_percent_mean,Mean CPU Utilization (%),Resource Consumption,Lower is Lighter,48.36,49.3,2.153,50,68.8,75.6,16.037,15,42.0,1.8945975863626174e-07,1.895e-07,0.888,*** (p < 0.001)
+ram_used_mb_mean,Mean RAM Utilization (MB),Resource Consumption,Lower is Lighter,4525.842,4894.7,674.025,50,7296.74,7306.2,36.012,15,0.0,4.8937752934280056e-09,4.894e-09,1.0,*** (p < 0.001)
+gpu_percent_mean,Mean GPU Utilization (%),Hardware Acceleration,Context-dependent,5.27,5.1,0.463,50,24.22,24.5,0.355,15,0.0,3.928170823729568e-09,3.928e-09,1.0,*** (p < 0.001)
+gpu_mem_used_mb_mean,Mean GPU VRAM Used (MB),Hardware Acceleration,Context-dependent,294.71,242.4,73.309,50,738.26,710.7,78.201,15,0.0,4.8937752934280056e-09,4.894e-09,1.0,*** (p < 0.001)
+dist_err_median_m,Median Distance Error (m),Estimation Accuracy,Lower is More Accurate,0.684,0.613,0.257,50,2.444,1.241,2.41,49,573.0,5.125986241753642e-06,5.126e-06,0.532,*** (p < 0.001)

@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-08-20T11:36:25.326307",
+  "tests_summary": {
+    "test_a_rmse": {
+      "rmse_px": 0.2741644412234767,
+      "views": 39,
+      "status": "CONFORME",
+      "verdict": "EXCELLENTE (< 0.3 px)"
+    },
+    "test_b_rectilinearity": {
+      "max_undist_dev_px": 3.0,
+      "mean_undist_dev_px": 2.090909090909091,
+      "max_raw_dev_px": 2.0,
+      "gain_pct": 0.0,
+      "is_compliant": false,
+      "verdict": "NON-CONFORME (Écart > 1.0 px)"
+    },
+    "test_c_intrinsics": {
+      "K": [
+        [
+          616.7362060546875,
+          0.0,
+          321.073486328125
+        ],
+        [
+          0.0,
+          616.79443359375,
+          236.58999633789062
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "D": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "model": "plumb_bob",
+      "is_zero_distortion": true
+    },
+    "test_d_homography": {
+      "num_tags": 6,
+      "center_raw_cm": 0.6348104205569447,
+      "center_undist_cm": 0.23272757683017647,
+      "periph_raw_cm": 0.22114759673401088,
+      "periph_undist_cm": 0.34614931195800963,
+      "improvement_pct": 2.2890586408898628
+    }
+  },
+  "verdicts": {},
+  "recommendations": [
+    "🟢 [Calibration Damier] Excellente précision subpixel (< 0.3 px). Intrinsèques fiables.",
+    "🔴 [Rectilinéarité] Déviation de courbure résiduelle supérieure à 1 px aux coins du capteur."
+  ],
+  "suspect_flags": []
+}

@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ROS / ROS 2
+install/
+log/
+*.bag
+*.db3
+*.mcap
+metadata.yaml
+*.bag.active
+*.log
+
+# Heavy Large Archives
+*.zip
+*.tar.gz
+*.tar
+
+# Model checkpoints (optional - keep small weights if needed)
+*.engine
+*.bin
+
+# Temporary extracts & caches
+.pytest_cache/
+.coverage
+htmlcov/
+extracted_bags/
+
+# Operating System & IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~

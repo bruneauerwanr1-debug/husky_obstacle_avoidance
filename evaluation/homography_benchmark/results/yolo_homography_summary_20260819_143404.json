@@ -1,0 +1,37 @@
+{
+  "total_detections": 3356,
+  "paired_with_depth_gt": 3121,
+  "mean_distance_depth_gt_m": 1.4269702018583785,
+  "mean_distance_h_old_m": 3.6136957687723488,
+  "mean_distance_h_new_m": 3.620859356376639,
+  "median_delta_old_vs_new_cm": 7.6,
+  "max_delta_old_vs_new_cm": 559.0,
+  "mae_old_cm": 168.2006728612624,
+  "median_err_old_cm": 160.7,
+  "rmse_old_cm": 244.4097677840904,
+  "mae_new_cm": 177.45616789490546,
+  "median_err_new_cm": 186.0,
+  "rmse_new_cm": 251.1678920307761,
+  "improvement_cm": -25.30000000000001,
+  "improvement_pct": 0.0,
+  "distance_brackets": {
+    "near_under_1m": {
+      "count": 1376,
+      "median_err_old_cm": 12.5,
+      "median_err_new_cm": 19.3,
+      "gain_pct": 0.0
+    },
+    "mid_1m_to_2m": {
+      "count": 1050,
+      "median_err_old_cm": 163.0,
+      "median_err_new_cm": 203.2,
+      "gain_pct": 0.0
+    },
+    "far_over_2m": {
+      "count": 695,
+      "median_err_old_cm": 195.4,
+      "median_err_new_cm": 188.2,
+      "gain_pct": 3.68474923234392
+    }
+  }
+}

@@ -1,0 +1,11 @@
+Metric_Key,Metric_Name,Category,Interpretation,Farneback_Mean,Farneback_Median,Farneback_Std,Farneback_N,YOLO_Mean,YOLO_Median,YOLO_Std,YOLO_N,Mann_Whitney_U,P_Value,P_Value_Scientific,Effect_Size_r,Significance
+d_min_m,Minimum Distance to Obstacle (m),Safety / Proximity,Higher is Safer,0.055,0.05,0.041,11,0.602,0.461,0.449,10,2.0,0.00021411818034434285,2.141e-04,0.964,*** (p < 0.001)
+estop_count,Emergency Stop (E-STOP) Count,Safety / Failures,Lower is Safer,37.0,23.0,29.271,11,10.1,9.5,2.601,10,100.0,0.001702946486243747,1.703e-03,-0.818,** (p < 0.01)
+delta_psi_cum_rad,Cumulative Heading Rotation Δψ (rad),Agitation / Stability,Lower is Smoother,24.608,25.767,10.398,5,19.899,16.121,13.052,9,25.0,0.7972027972027972,7.972e-01,-0.111,Not Significant (NS)
+jerk_rms_rad_s2,Angular Jerk RMS (rad/s²),Motion Smoothness,Lower is Smoother,0.351,0.266,0.206,5,0.439,0.419,0.129,9,11.0,0.14685314685314685,1.469e-01,0.511,Not Significant (NS)
+fps_hz,Processing Rate / FPS (Hz),Real-time Execution,Higher is Faster,10.022,10.022,0.012,11,10.003,10.003,0.007,10,101.0,0.001355261238140501,1.355e-03,-0.836,** (p < 0.01)
+cpu_percent_mean,Mean CPU Utilization (%),Resource Consumption,Lower is Lighter,48.09,48.6,2.231,10,69.933,75.6,17.598,3,1.0,0.022125210719879714,2.213e-02,0.933,* (p < 0.05)
+ram_used_mb_mean,Mean RAM Utilization (MB),Resource Consumption,Lower is Lighter,4466.91,4863.15,732.503,10,7285.367,7306.2,49.831,3,0.0,0.006993006993006993,6.993e-03,1.0,** (p < 0.01)
+gpu_percent_mean,Mean GPU Utilization (%),Hardware Acceleration,Context-dependent,5.29,5.05,0.515,10,24.267,24.5,0.404,3,0.0,0.013458493722302983,1.346e-02,1.0,* (p < 0.05)
+gpu_mem_used_mb_mean,Mean GPU VRAM Used (MB),Hardware Acceleration,Context-dependent,298.93,267.7,79.464,10,733.667,710.7,85.398,3,0.0,0.006993006993006993,6.993e-03,1.0,** (p < 0.01)
+dist_err_median_m,Median Distance Error (m),Estimation Accuracy,Lower is More Accurate,0.658,0.645,0.15,10,1.393,1.274,0.653,10,10.0,0.0028272720911168077,2.827e-03,0.8,** (p < 0.01)

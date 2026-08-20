@@ -1,0 +1,127 @@
+{
+  "total_detections": 6384,
+  "h_old": {
+    "mean_m": 4.152857456140351,
+    "median_m": 2.175,
+    "std_m": 3.756692107370441,
+    "min_m": 0.563,
+    "max_m": 22.727,
+    "p25_m": 1.381,
+    "p75_m": 4.2495
+  },
+  "h_new": {
+    "mean_m": 4.110018013784462,
+    "median_m": 2.2605,
+    "std_m": 3.4897184308713256,
+    "min_m": 0.622,
+    "max_m": 17.137,
+    "p25_m": 1.48275,
+    "p75_m": 4.18375
+  },
+  "divergence_old_vs_new": {
+    "mean_delta_cm": 20.056218671679197,
+    "median_delta_cm": 7.3,
+    "std_delta_cm": 40.20874338389334,
+    "max_delta_cm": 559.0,
+    "p90_delta_cm": 40.1,
+    "p95_delta_cm": 40.2
+  },
+  "gt_paired_count": 5196,
+  "depth_gt_comparison": {
+    "mae_old_cm": 147.6259430331024,
+    "median_err_old_cm": 103.2,
+    "rmse_old_cm": 221.86786467725204,
+    "mae_new_cm": 155.14164742109315,
+    "median_err_new_cm": 103.75,
+    "rmse_new_cm": 228.10359871667538
+  },
+  "brackets": {
+    "< 1.0 m (Danger)": {
+      "count": 323,
+      "percent": 5.059523809523809,
+      "mean_old_m": 0.8040061919504643,
+      "mean_new_m": 0.8283003095975232,
+      "median_delta_cm": 3.6,
+      "p90_delta_cm": 11.8,
+      "max_delta_cm": 31.6
+    },
+    "1.0 - 2.0 m (Warning)": {
+      "count": 2716,
+      "percent": 42.54385964912281,
+      "mean_old_m": 1.4859591310751101,
+      "mean_new_m": 1.5339506627393225,
+      "median_delta_cm": 0.9,
+      "p90_delta_cm": 9.2,
+      "max_delta_cm": 38.8
+    },
+    "2.0 - 3.5 m (Medium)": {
+      "count": 417,
+      "percent": 6.5319548872180455,
+      "mean_old_m": 2.412443645083933,
+      "mean_new_m": 2.523026378896882,
+      "median_delta_cm": 12.1,
+      "p90_delta_cm": 23.0,
+      "max_delta_cm": 39.0
+    },
+    "> 3.5 m (Long Range)": {
+      "count": 2928,
+      "percent": 45.86466165413533,
+      "mean_old_m": 7.2439528688524595,
+      "mean_new_m": 7.087603142076503,
+      "median_delta_cm": 32.7,
+      "p90_delta_cm": 40.2,
+      "max_delta_cm": 559.0
+    }
+  },
+  "classes": {
+    "backpack": {
+      "count": 5,
+      "mean_new_m": 0.9496,
+      "median_new_m": 0.962,
+      "median_delta_cm": 1.7,
+      "p90_delta_cm": 1.9
+    },
+    "chair": {
+      "count": 3706,
+      "mean_new_m": 4.316713437668646,
+      "median_new_m": 1.981,
+      "median_delta_cm": 6.9,
+      "p90_delta_cm": 32.7
+    },
+    "couch": {
+      "count": 183,
+      "mean_new_m": 11.456196721311477,
+      "median_new_m": 11.376,
+      "median_delta_cm": 152.0,
+      "p90_delta_cm": 198.7
+    },
+    "dining table": {
+      "count": 651,
+      "mean_new_m": 4.400701996927803,
+      "median_new_m": 3.91,
+      "median_delta_cm": 40.1,
+      "p90_delta_cm": 40.2
+    },
+    "knife": {
+      "count": 7,
+      "mean_new_m": 0.8815714285714286,
+      "median_new_m": 0.958,
+      "median_delta_cm": 27.8,
+      "p90_delta_cm": 30.2
+    },
+    "person": {
+      "count": 1432,
+      "mean_new_m": 1.5296522346368715,
+      "median_new_m": 1.3815,
+      "median_delta_cm": 4.6,
+      "p90_delta_cm": 27.8
+    },
+    "tv": {
+      "count": 397,
+      "mean_new_m": 7.69452644836272,
+      "median_new_m": 8.214,
+      "median_delta_cm": 22.0,
+      "p90_delta_cm": 25.9
+    }
+  }
+}

@@ -1,0 +1,23 @@
+Scenario,Description,Node,Trials_Count,Duration_Mean_s,Duration_CV_Pct,Min_Distance_Mean_m,Min_Distance_CV_Pct,ESTOP_Mean,ESTOP_CV_Pct
+S1,Static obstacle (generic),yolo,5,25.42,57.9,0.742,25.5,1.6,121.8
+S1.1,Static cone/box (measured position),farneback,4,13.95,40.6,0.332,50.1,4.75,52.6
+S1.1,Static cone/box (measured position),raft,4,23.53,34.1,,0.0,3.5,54.7
+S1.2,Thin pole ⌀5cm,yolo,5,28.62,75.0,1.124,98.6,2.2,49.8
+S1.2,Thin pole ⌀5cm,farneback,5,7.41,77.3,0.566,53.6,1.8,99.4
+S2.1,Crossing pedestrian ~0.8 m/s,farneback,4,13.6,39.0,0.05,0.0,2.75,45.8
+S2.2,Frontal approaching pedestrian ~0.5 m/s,yolo,5,5.62,40.9,3.004,94.6,1.8,99.4
+S2.2,Frontal approaching pedestrian ~0.5 m/s,farneback,5,6.47,15.4,0.01,0.0,1.2,37.3
+S3.1,Low illumination <50 lux,yolo,5,29.94,69.0,3.148,185.1,2.2,59.3
+S3.1,Low illumination <50 lux,farneback,7,15.01,59.0,0.01,0.0,3.57,62.3
+S3.2,AprilTags on ground visible,yolo,4,12.93,55.0,10.466,126.7,1.75,97.6
+S3.2,AprilTags on ground visible,farneback,6,11.65,73.5,0.05,0.0,3.67,66.1
+S4.1,High forward speed vx≈0.8 m/s,yolo,6,16.56,28.3,3.629,149.0,1.67,90.3
+S4.1,High forward speed vx≈0.8 m/s,farneback,6,18.1,59.7,0.04,0.0,9.0,77.3
+S4.2,"Pure rotation, clear path ahead",yolo,8,5.32,35.3,3.835,59.2,1.38,37.6
+S4.2,"Pure rotation, clear path ahead",farneback,4,6.28,37.2,0.328,58.0,0.0,0.0
+S5.1,Non-COCO object (door/partition),yolo,6,16.58,48.3,2.267,51.5,0.67,122.5
+S5.1,Non-COCO object (door/partition),farneback,6,11.52,32.3,0.118,65.3,3.17,57.9
+S5.2,Slalom 1.1m between two obstacles,yolo,3,52.1,70.2,3.49,117.4,3.33,124.9
+S5.2,Slalom 1.1m between two obstacles,farneback,3,63.63,47.6,0.16,45.1,14.67,17.2
+S5.3,Appearing/disappearing obstacle (15s retention),yolo,6,7.52,86.5,0.968,45.8,1.0,89.4
+S5.3,Appearing/disappearing obstacle (15s retention),farneback,4,15.58,34.1,0.268,13.4,3.75,13.3
