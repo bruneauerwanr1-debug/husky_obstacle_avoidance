@@ -10,7 +10,7 @@ This repository provides three vision-based obstacle perception and reactive nav
 
 1. **CPU Dense Optical Flow (Farneback)** — Motion-field estimation, statistical ego-motion cancellation, 3-zone lateral balance, and predictive evasion.
 2. **Deep Optical Flow (RAFT)** — High-precision recurrent optical flow on GPU, directional blob coherence filtering, and dynamic trajectory extrapolation.
-3. **Predictive Object Detection (YOLOv8 + Ground Homography)** — Semantic obstacle classification, metric ground-plane projection ($Z=0$), Velocity Obstacle (VO) side selection, and Time-to-Collision (TTC) forecasting.
+3. **Predictive Object Detection (YOLOv26 + Ground Homography)** — Semantic obstacle classification, metric ground-plane projection ($Z=0$), Velocity Obstacle (VO) side selection, and Time-to-Collision (TTC) forecasting.
 
 ```
                        ┌────────────────────────────┐
@@ -74,7 +74,7 @@ husky_obstacle_avoidance/
 │   ├── optical_flow_farneback.py       # Farneback CPU dense optical flow avoidance node
 │   ├── raft_avoidance_node.py          # RAFT GPU deep optical flow avoidance node
 │   ├── raft_flow_core.py               # RAFT core inference & risk estimation module
-│   ├── predictive_yolo.py              # YOLOv8 + Homography predictive distance avoidance node
+│   ├── predictive_yolo.py              # YOLOv26 + Homography predictive distance avoidance node
 │   └── homography_node.py              # Live AprilTag ground homography calibrator
 │
 └── evaluation/                         # Evaluation, benchmarking, camera & homography analysis
@@ -132,7 +132,7 @@ ros2 run husky_obstacle_avoidance optical_flow_farneback.py
 # Option B: RAFT Deep Optical Flow (GPU)
 ros2 run husky_obstacle_avoidance raft_avoidance_node.py
 
-# Option C: YOLOv8 Predictive Avoidance (GPU)
+# Option C: YOLOv26 Predictive Avoidance (GPU)
 ros2 run husky_obstacle_avoidance predictive_yolo.py
 
 # Or via unified launch:
