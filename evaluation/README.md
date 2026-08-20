@@ -4,7 +4,7 @@ This directory contains the experimental benchmarking protocols, rosbag analysis
 
 ---
 
-## 1. Experimental Scenarios Matrix (S1.1 — S5.3)
+## 1. Experimental Scenarios Matrix (S1.1 to S5.3)
 
 The benchmark systematically assesses the three avoidance paradigms:
 - **P1**: YOLOv8 + Ground Homography + BotSort Tracking (GPU)
